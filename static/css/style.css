@@ -5,15 +5,14 @@
 .fv {
 }
 .fv__all{
+    min-width:100%;
+    max-width:100%;
+    width:1000px;
     background-image:url(kv02.jpg);
     height:700px;
     padding-top:100px;
     background-position:center;
     background-size:100% 100%;
-}
-.fv__all img {
-    min-width:100%;
-    background-size:1800px;
 }
 .fv__block {
     width:26%;
@@ -94,12 +93,12 @@ header li:hover {
     border-bottom:4px solid #E4B217;
 }
 .main-top {
-    width:1800px;
+    width:100%;
     display:flex;
     justify-content:center;
 }
 .main-top-left {
-    width:900px;
+    width:50%;
     background-color:#000;
     height:100%;
 }
@@ -141,7 +140,7 @@ header li:hover {
     font-size:14px;
 }
 .main-top-right {
-    min-width:900px;
+    min-width:50%;
     background-image:url(sample_vinus2.png);
     background-size:900px;
     background-position:center;
@@ -165,8 +164,9 @@ header li:hover {
 }
 .lookbook__title__TITLE h2::after {
     content:"";
+    display:block;
+    margin:10px auto;
     border:1px solid black;   
-    height:1px;
     width:40px;
 }
 .lookbook__title__TITLE p {
@@ -195,90 +195,79 @@ header li:hover {
 .lookbook__main__orangeblock p{
     font-size:12px;
 }
-.contents {
+.contents1 {
     width:84%;
     padding:0 8%;
     padding-bottom:24px;
 }
-.contents__title {
+.contents__title1 {
     width:100%;
     display:flex;
     align-items:center;
     justify-content:center;
     margin:64px auto;
 }
-.contents__title__TITLE {
+.contents__title__TITLE1 {
     width:40%;
     text-align:center;
 }
-.contents__title__TITLE h2 {
+.contents__title__TITLE1 h2 {
     font-size:32px;   
 }
-.contents__title__TITLE p {
+.contents__title__TITLE1 h2::after {
+    content:"";
+    display:block;
+    margin:10px auto;
+    border:1px solid black;   
+    width:40px;
+}
+.contents__title__TITLE1 p {
     font-size:12px;
 }
-.contents__main {
+.contents__main1 {
     width:88%;
     display:flex;
     align-items:center;
     justify-content:space-between;
     margin:0 auto;
 }
-.contents__main p {
+.contents__main1 p {
     font-size:12px;
     text-align:center;
     background-color:#FFF;
     padding:4px 8px;
+    margin:100px 50px;
+    border:4px solid #000;
 }
-.whoweare  {
+.whoweare1  {
     width:24%;
-    background-image:url(contents_img01.jpg);
+    background-image:url(static/images/contents_img01.jpg);
     height:225px;
     background-position:center;
     background-size:100% 100%;
 }
-.whoweare p {
-    padding:4px 8px;
-    margin:100px 50px;
-    border:4px solid #000;
-}
-.showroom  {
+.showroom1  {
     background-image:url(contents_img02.jpg);
     width:24%;
     height:225px;
     background-position:center;
     background-size:100% 100%;
 }
-.showroom p {
-    padding:4px 8px;
-    margin:100px 50px;
-    border:4px solid #000;
-}
-.jobs  {
+.jobs1  {
     width:24%;
     background-image:url(contents_img03.jpg);
     height:225px;
     background-position:center;
     background-size:100% 100%;
 }
-.jobs p {
-    padding:4px 8px;
-    margin:100px 50px;
-    border:4px solid #000;
-}
-.lookbookblock  {
+.lookbookblock1  {
     width:24%;   
     background-image:url(contents_img04.jpg);
     height:225px;
     background-position:center;
     background-size:100% 100%;
 }
-.lookbookblock p {
-    padding:4px 8px;
-    margin:100px 50px;
-    border:4px solid #000;
-}
-.contents__main1 {
+.contents2 {
     display:none;
 }
 .onlineshop {
@@ -449,68 +438,61 @@ footer ul {
     height:auto;
     margin:0px auto;
 }
-.contents__main {
+.contents1 {
     display:none;
 }
-.contents__main1 {
-    width:44%;
-    display:flex;
+.contents2{
+    width:400px;
+}
+.contents__main2 {
+    display:block;
     align-items:center;
-    justify-content:space-between;
+    justify-content:center;;
     margin:0 auto;
 }
-.contents__main1 p {
+.contents__main2 p {
     font-size:12px;
     text-align:center;
     background-color:#FFF;
     padding:4px 8px;
+    margin:100px 50px;
+    border:4px solid #000;
 }
-.whoweare1  {
+.contentsline1 {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.contentsline2{
+    display:flex;
+    justify-content:center;
+}
+.whoweare2  {
     width:50%;
     background-image:url(contents_img01.jpg);
     height:225px;
     background-position:center;
     background-size:100% 100%;
 }
-.whoweare1 p {
-    padding:4px 8px;
-    margin:100px 50px;
-    border:4px solid #000;
-}
-.showroom1  {
+.showroom2  {
     background-image:url(contents_img02.jpg);
     width:50%;
     height:225px;
     background-position:center;
     background-size:100% 100%;
 }
-.showroom1 p {
-    padding:4px 8px;
-    margin:100px 50px;
-    border:4px solid #000;
-}
-.jobs1  {
+.jobs2  {
     width:50%;
     background-image:url(contents_img03.jpg);
     height:225px;
     background-position:center;
     background-size:100% 100%;
 }
-.jobs1 p {
-    padding:4px 8px;
-    margin:100px 50px;
-    border:4px solid #000;
-}
-.lookbookblock1  {
+.lookbookblock2  {
     width:50%;   
     background-image:url(contents_img04.jpg);
     height:225px;
     background-position:center;
     background-size:100% 100%;
-}
-.lookbookblock1 p {
-    padding:4px 8px;
-    margin:100px 50px;
-    border:4px solid #000;
 }
 }

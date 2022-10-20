@@ -8,7 +8,7 @@
     min-width:100%;
     max-width:100%;
     width:1000px;
-    background-image:url(kv02.jpg);
+    background-image:url(static/images/kv02.jpg);
     height:700px;
     padding-top:100px;
     background-position:center;
@@ -141,7 +141,7 @@ header li:hover {
 }
 .main-top-right {
     min-width:50%;
-    background-image:url(sample_vinus2.png);
+    background-image:url(static/images/sample_vinus2.png);
     background-size:900px;
     background-position:center;
 }
@@ -178,7 +178,7 @@ header li:hover {
     justify-content:center;
     padding:0px 60px;
     height:600px;
-    background-image:url(lookbook.png);
+    background-image:url(static/images/lookbook.png);
     background-size:100% 100%;
     background-position:center;
 
@@ -241,13 +241,13 @@ header li:hover {
 }
 .whoweare1  {
     width:24%;
-    background-image:url(contents_img01.jpg);
+    background-image:url(static/images/contents_img01.jpg);
     height:225px;
     background-position:center;
     background-size:100% 100%;
 }
 .showroom1  {
-    background-image:url(contents_img02.jpg);
+    background-image:url(static/images/contents_img02.jpg);
     width:24%;
     height:225px;
     background-position:center;
@@ -255,14 +255,14 @@ header li:hover {
 }
 .jobs1  {
     width:24%;
-    background-image:url(contents_img03.jpg);
+    background-image:url(static/images/contents_img03.jpg);
     height:225px;
     background-position:center;
     background-size:100% 100%;
 }
 .lookbookblock1  {
     width:24%;   
-    background-image:url(contents_img04.jpg);
+    background-image:url(static/images/contents_img04.jpg);
     height:225px;
     background-position:center;
     background-size:100% 100%;
@@ -408,7 +408,7 @@ footer ul {
     display:flex;
     align-items:center;
     justify-content:center;
-    background-image:url(lookbook.png);
+    background-image:url(static/images/lookbook.png);
     background-size:100% 100%;
     background-position:center;
 }
@@ -447,7 +447,7 @@ footer ul {
 .contents__main2 {
     display:block;
     align-items:center;
-    justify-content:center;;
+    justify-content:center;
     margin:0 auto;
 }
 .contents__main2 p {
@@ -469,13 +469,13 @@ footer ul {
 }
 .whoweare2  {
     width:50%;
-    background-image:url(contents_img01.jpg);
+    background-image:url(static/images/contents_img01.jpg);
     height:225px;
     background-position:center;
     background-size:100% 100%;
 }
 .showroom2  {
-    background-image:url(contents_img02.jpg);
+    background-image:url(static/images/contents_img02.jpg);
     width:50%;
     height:225px;
     background-position:center;
@@ -483,14 +483,14 @@ footer ul {
 }
 .jobs2  {
     width:50%;
-    background-image:url(contents_img03.jpg);
+    background-image:url(static/images/contents_img03.jpg);
     height:225px;
     background-position:center;
     background-size:100% 100%;
 }
 .lookbookblock2  {
     width:50%;   
-    background-image:url(contents_img04.jpg);
+    background-image:url(static/images/contents_img04.jpg);
     height:225px;
     background-position:center;
     background-size:100% 100%;
